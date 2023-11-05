@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #009dff;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+main {
+    padding: 80px 20px 20px;
+    margin-top: 60px;
+}
+
+footer {
+    background-color: #009dff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
+    padding: 0 25px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1,
+h2 {
+    margin: 0;
+}
+
+
+.links__container {
+    display: flex;
+    color: #009dff;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.links__container a {
+    text-decoration: none;
+}
+
+.header__title {
+    font-size: 36px;
+}
+
+.logo__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+}
+
+.user_container {
+    display: flex;
+    justify-content: right;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.custom__selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+.products__container {
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos__imagens {
+    width: 250px;
+    height: 200px;
+}
+
+.header_links__container {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .links__container {
+        display: none;
+    }
+
+    .header_links__container {
+        display: flex;
+        font-size: 22px;
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .header_links__container a {
+        text-decoration: none;
+    }
+
+    a:link,
+    a:visited {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
